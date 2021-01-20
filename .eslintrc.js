@@ -1,5 +1,5 @@
 module.exports = {
-  extends: ['eslint:recommended'],
+  extends: ['eslint:recommended', 'plugin:mdx/recommended'],
   rules: {
     indent: ['error', 2],
     'react/jsx-props-no-spreading': 'off',
